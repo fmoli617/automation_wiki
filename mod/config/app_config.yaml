@@ -1,0 +1,33 @@
+app:
+  tribunal: TJPR
+  estado: PR
+  dados_consolidados:
+    - natureza_credito
+    - numero_processo
+    - data_autuacao
+    - ano_vencimento
+    - ente_devedor
+    - valor_principal
+    - data_transito_conhecimento
+    - data_transito_execucao
+    - meses_rra
+    - valor_juros
+    - url_arquivo_oficio
+    
+url:
+  padrao: 'https://projudi.tjpr.jus.br/projudi/'
+
+navegador_config:
+  nome_navegador: chrome
+  caminho_motor: '../recursos/drivers/chromedriver.exe'  
+  caminho_pasta_downloads: '../temp'  
+  modo_anonimo: False
+  modo_sem_janelas: False
+
+folder_path:
+  recursos: '../recursos'
+  temp: '../temp'
+
+rules:
+  keys_docs:
+    - 'oficiorequisitorio'
