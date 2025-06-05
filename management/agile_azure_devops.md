@@ -1,5 +1,4 @@
-
-# 🎯 Análise Estratégica: Escolha do Processo Azure DevOps para Equipe de Automação
+# 🎯 Análise Estratégica: Escolha do Processo "Agile", implementado com o Azure DevOps.
 
 ## 🔍 Organização
 
@@ -9,8 +8,7 @@
   - Com interação visual.
   - Com interação baseada em componentes mapeados.
 
-- Mapeamento de processos BPM-(N):
-  
+- Mapeamento de processos voltados a automação. (BPM-(N)):
   - Analise de requisitos
   - Documentacao de desenvolvimento
   - Mapeamento técnico
